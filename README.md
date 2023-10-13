@@ -30,4 +30,4 @@ Feel free to contribute to this project. If you find any issues or have ideas fo
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the GPL-3.0 License. See the [LICENSE](LICENSE.md) file for details.
