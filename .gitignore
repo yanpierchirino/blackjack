@@ -1,0 +1,11 @@
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+.idea/
+.vscode/
+.DS_Store
+build/
+node_modules/
+/dist/
+
+yarn.lock
+package-lock.json

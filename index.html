@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Backjack</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.32/dist/sweetalert2.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<body>
+    <header class="titulo">
+        Backjack
+    </header>
+
+    <div class="row mt-2">
+        <div id="botones" class="col text-center">
+            <button id="btnNuevo" class="btn btn-danger">Nuevo juego</button>
+            <button id="btnCarta" class="btn btn-primary" disabled>Pedir carta</button>
+            <button id="btnDetener" class="btn btn-primary" disabled>Detener</button>
+        </div>
+    </div>
+
+    <div class="row container">
+        <div class="col">
+            <h1>Jugador: <small>0 pts.</small></h1>
+            <div id="jugador-cartas" class="cartasJugador">
+                <img class="carta" src="assets/images/cartas/grey_back.png"/>
+            </div>
+        </div>
+    </div>
+    <div class="row container mt-4">
+        <div class="col">
+            <h1>Bot: <small>0 pts.</small></h1>
+            <div id="bot-cartas" class="cartasJugador">
+                <img class="carta" src="assets/images/cartas/red_back.png"/>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="assets/js/underscore-min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.32/dist/sweetalert2.all.min.js"></script>
+    <script src="assets/js/juego.js"></script>
+</body>
+</html>
